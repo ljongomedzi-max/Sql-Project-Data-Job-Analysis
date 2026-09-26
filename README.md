@@ -15,6 +15,7 @@ An exploratory analysis of 787,686 job postings using PostgreSQL and SQL to inve
 - [Database Design](#database-design)
 - [Tools and Technologies](#tools-and-technologies)
 - [Project Workflow](#project-workflow)
+- [SQL Queries](#sql-queries)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
   - [1. Job Category Demand](#1-job-category-demand)
   - [2. Salary by Job Category](#2-salary-by-job-category)
@@ -38,11 +39,11 @@ An exploratory analysis of 787,686 job postings using PostgreSQL and SQL to inve
 - [Portfolio Summary](#portfolio-summary)
 - [Contact / Portfolio](#contact--portfolio)
 
-A portfolio-ready SQL project analyzing the Data Analyst job market using PostgreSQL. This project examines hiring demand, salaries, skill requirements, geographic distribution, remote work patterns, [...]
+A portfolio-ready SQL project analyzing the Data Analyst job market using PostgreSQL. This project examines hiring demand, salaries, skill requirements, geographic distribution, remote work patterns, and hiring trends across a large dataset of job postings.
 
 ## Why This Project Matters
 
-The Data Analyst role sits at the intersection of business, technology, and decision-making. This project explores how SQL can be used to turn a large relational dataset into evidence-based insights f[...]
+The Data Analyst role sits at the intersection of business, technology, and decision-making. This project explores how SQL can be used to turn a large relational dataset into evidence-based insights for career planning, hiring strategy, and market analysis.
 
 By combining job-posting data with skill, company, and geographic information, the analysis answers practical questions such as:
 
@@ -169,6 +170,18 @@ This project follows a structured SQL-driven workflow:
 6. Analyze trends by month, country, skill, and work arrangement
 7. Summarize findings and recommendations
 
+## SQL Queries
+
+Each analysis in this project is stored in a dedicated SQL file. The queries below map directly to the findings presented in this README:
+
+- [1 Highest-paying data jobs](1%20Highest-paying%20data%20jobs)
+- [2 Remote job opportunities](2%20Remote%20job%20opportunities)
+- [3 Salaries trend over time](3%20Salaries%20trend%20over%20time)
+- [4 Remote data analyst jobs by country](4%20Remote%20data%20analyst%20jobs%20by%20country)
+- [5 Companies with highest data analyst salaries](5%20Companies%20with%20highest%20data%20analyst%20salaries)
+- [6 Most in-demand skills for data analysts and their salaries](6%20Most%20in-demand%20skills%20for%20data%20analysts%20and%20their%20salaries)
+- [7 Highest-paying data analyst jobs and their skills](7%20Highest-paying%20data%20analyst%20jobs%20and%20their%20skills)
+
 ## Exploratory Data Analysis
 
 ### 1. Job Category Demand
@@ -204,7 +217,7 @@ Only postings with annual salary information were included in this analysis.
 
 ### 3. Highest Individual Salaries
 
-The analysis identified several unusually high-paying job postings, including senior Data Scientist, Data Analyst, and analytics leadership positions. These extremes illustrate why median salary is of[...]
+The analysis identified several unusually high-paying job postings, including senior Data Scientist, Data Analyst, and analytics leadership positions. These extremes illustrate why median salary is a more informative summary than average salary alone in a skewed distribution.
 
 ### 4. Most In-Demand Skills
 
@@ -291,7 +304,7 @@ Remote Data Analyst postings were found across many countries. Among countries w
 
 Examples:
 
-- Brazil ��� 24.34%
+- Brazil — 24.34%
 - Canada — 21.28%
 - India — 17.12%
 - Sudan — 15.84%
@@ -399,9 +412,9 @@ Several limitations should be considered:
 
 ## Conclusion
 
-This project demonstrates how SQL and PostgreSQL can be used to analyze a large real-world dataset and transform raw job-posting information into meaningful insights. The analysis examined job demand,[...]
+This project demonstrates how SQL and PostgreSQL can be used to analyze a large real-world dataset and transform raw job-posting information into meaningful insights. The analysis examined job demand, salaries, skills, companies, geography, remote work, and time trends.
 
-SQL was central to connecting multiple relational tables, calculating statistics, and supporting evidence-based decision-making. The findings highlight the importance of SQL within Data Analyst roles [...]
+SQL was central to connecting multiple relational tables, calculating statistics, and supporting evidence-based decision-making. The findings highlight the importance of SQL within Data Analyst roles while also emphasizing complementary skills such as Python, Excel, Tableau, Power BI, and R.
 
 More broadly, the project demonstrates the complete analytical workflow:
 
