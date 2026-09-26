@@ -14,12 +14,12 @@ The project demonstrates how SQL can transform a large relational dataset into p
 ________________________________________
 ## 2. Project Objective
 The primary objective was to use SQL to investigate the Data Analyst job market and answer questions about:
-•	Job demand
-•	Salary levels
-•	Required technical skills
-•	Companies hiring Data Analysts
-•	Geographic distribution
-•	Remote opportunities
+-	Job demand
+-	Salary levels
+-	Required technical skills
+-	Companies hiring Data Analysts
+-	Geographic distribution
+-	Remote opportunities
 •	Salary differences
 •	Monthly hiring trends
 •	Skills associated with salary differences
