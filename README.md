@@ -1,10 +1,42 @@
 # Data Analyst Job Market Analysis Using SQL
 
-A portfolio-ready SQL project analyzing the Data Analyst job market using PostgreSQL. This project examines hiring demand, salaries, skill requirements, geographic distribution, remote work patterns, and time-based trends across a large dataset of job postings.
+## Table of Contents
+
+- [Why This Project Matters](#why-this-project-matters)
+- [Project Objective](#project-objective)
+- [Business Questions](#business-questions)
+- [Dataset](#dataset)
+- [Database Design](#database-design)
+- [Tools and Technologies](#tools-and-technologies)
+- [Project Workflow](#project-workflow)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [1. Job Category Demand](#1-job-category-demand)
+  - [2. Salary by Job Category](#2-salary-by-job-category)
+  - [3. Highest Individual Salaries](#3-highest-individual-salaries)
+  - [4. Most In-Demand Skills](#4-most-in-demand-skills)
+  - [5. Most In-Demand Data Analyst Skills](#5-most-in-demand-data-analyst-skills)
+  - [6. Skills and Salary](#6-skills-and-salary)
+  - [7. Company Analysis](#7-company-analysis)
+  - [8. Geographic Distribution](#8-geographic-distribution)
+  - [9. Remote Work](#9-remote-work)
+  - [10. Remote vs Non-Remote Salary](#10-remote-vs-non-remote-salary)
+  - [11. Monthly Job Demand](#11-monthly-job-demand)
+  - [12. Monthly Salary Trend](#12-monthly-salary-trend)
+- [Key Findings](#key-findings)
+- [Career Insights](#career-insights)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- [Conclusion](#conclusion)
+- [Dashboard](#dashboard)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Portfolio Summary](#portfolio-summary)
+- [Contact / Portfolio](#contact--portfolio)
+
+A portfolio-ready SQL project analyzing the Data Analyst job market using PostgreSQL. This project examines hiring demand, salaries, skill requirements, geographic distribution, remote work patterns, [...]
 
 ## Why This Project Matters
 
-The Data Analyst role sits at the intersection of business, technology, and decision-making. This project explores how SQL can be used to turn a large relational dataset into evidence-based insights for hiring, career planning, and workforce analysis.
+The Data Analyst role sits at the intersection of business, technology, and decision-making. This project explores how SQL can be used to turn a large relational dataset into evidence-based insights f[...]
 
 By combining job-posting data with skill, company, and geographic information, the analysis answers practical questions such as:
 
@@ -166,7 +198,7 @@ Only postings with annual salary information were included in this analysis.
 
 ### 3. Highest Individual Salaries
 
-The analysis identified several unusually high-paying job postings, including senior Data Scientist, Data Analyst, and analytics leadership positions. These extremes illustrate why median salary is often a better summary measure than average salary alone.
+The analysis identified several unusually high-paying job postings, including senior Data Scientist, Data Analyst, and analytics leadership positions. These extremes illustrate why median salary is of[...]
 
 ### 4. Most In-Demand Skills
 
@@ -361,9 +393,9 @@ Several limitations should be considered:
 
 ## Conclusion
 
-This project demonstrates how SQL and PostgreSQL can be used to analyze a large real-world dataset and transform raw job-posting information into meaningful insights. The analysis examined job demand, salaries, skills, companies, geography, remote work, and time trends.
+This project demonstrates how SQL and PostgreSQL can be used to analyze a large real-world dataset and transform raw job-posting information into meaningful insights. The analysis examined job demand,[...]
 
-SQL was central to connecting multiple relational tables, calculating statistics, and supporting evidence-based decision-making. The findings highlight the importance of SQL within Data Analyst roles while also emphasizing the value of complementary skills such as Python, Excel, Tableau, Power BI, and R.
+SQL was central to connecting multiple relational tables, calculating statistics, and supporting evidence-based decision-making. The findings highlight the importance of SQL within Data Analyst roles [...]
 
 More broadly, the project demonstrates the complete analytical workflow:
 
