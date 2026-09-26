@@ -10,8 +10,6 @@ A SQL-based analysis of job market trends for Data Analyst roles using PostgreSQ
  
 ## Repository Structure
 
-```text
-
 .
 ├── data/
 │   ├── job_postings_fact.csv
@@ -37,7 +35,6 @@ A SQL-based analysis of job market trends for Data Analyst roles using PostgreSQ
 - [Key Findings](#8-key-findings)
 - [Recommendations](#10-recommendations)
 
-```md
 ## How to Run
 
 1. Create a PostgreSQL database named `job_market_analysis`
