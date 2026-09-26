@@ -46,6 +46,7 @@ The database contains four main relational tables:
 | `company_dim` | Company information |
 | `skills_dim` | Skill information |
 | `skills_job_dim` | Relationship between jobs and skills |
+
 Dataset Size
 Table	Records
 job_postings_fact	787,686
