@@ -11,6 +11,7 @@ A SQL-based analysis of job market trends for Data Analyst roles using PostgreSQ
 ## Repository Structure
 
 ```text
+
 .
 ├── data/
 │   ├── job_postings_fact.csv
@@ -35,6 +36,18 @@ A SQL-based analysis of job market trends for Data Analyst roles using PostgreSQ
 - [Exploratory Data Analysis](#7-exploratory-data-analysis)
 - [Key Findings](#8-key-findings)
 - [Recommendations](#10-recommendations)
+
+```md
+## How to Run
+
+1. Create a PostgreSQL database named `job_market_analysis`
+2. Import the dataset tables:
+   - `job_postings_fact`
+   - `company_dim`
+   - `skills_dim`
+   - `skills_job_dim`
+3. Run the SQL scripts in the `sql/` folder in order
+4. Execute the dashboard queries to generate visual summaries
 
 ## 1. Executive Summary
 This project analyzes 787,686 job postings using PostgreSQL and SQL to identify patterns in Data Analyst demand, salaries, skills, remote work, geographic distribution, companies, and hiring trends.
