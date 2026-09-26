@@ -1,5 +1,11 @@
 # Data Analyst Job Market Analysis Using SQL
 
+An exploratory analysis of 787,686 job postings using PostgreSQL and SQL to investigate job demand, salaries, skills, remote work, geography, and hiring trends.
+
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
+![SQL](https://img.shields.io/badge/Language-SQL-blue)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
 ## Table of Contents
 
 - [Why This Project Matters](#why-this-project-matters)
