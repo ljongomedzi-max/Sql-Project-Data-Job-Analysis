@@ -20,9 +20,8 @@ The primary objective was to use SQL to investigate the Data Analyst job market 
 -	Companies hiring Data Analysts
 -	Geographic distribution
 -	Remote opportunities
-•	Salary differences
-•	Monthly hiring trends
-•	Skills associated with salary differences
+-	Salary differences
+-	Monthly hiring trends-•	Skills associated with salary differences
 ________________________________________
 ## 3. Business Questions
 The project answers the following questions:
@@ -78,31 +77,31 @@ Operating Environment
 Windows PowerShell
 SQL Techniques
 The project uses:
-•	SELECT
-•	WHERE
-•	GROUP BY
-•	ORDER BY
-•	LIMIT
-•	COUNT
-•	AVG
-•	ROUND
-•	HAVING
-•	INNER JOIN
-•	PERCENTILE_CONT
-•	DATE_TRUNC
-•	STRING_AGG
-•	Conditional aggregation
-•	Filtering
-•	Data validation
+-	SELECT
+-	WHERE
+-	GROUP BY
+-	ORDER BY
+-	LIMIT
+-	COUNT
+-	AVG
+-	ROUND
+-	HAVING
+-	INNER JOIN
+-	PERCENTILE_CONT
+-	DATE_TRUNC
+-	STRING_AGG
+-	Conditional aggregation
+-	Filtering
+-	Data validation
 ________________________________________
 ## 7. Exploratory Data Analysis
 ### 7.1 Job Category Demand
 The largest job categories were:
-•	Data Analyst — 196,593
-•	Data Engineer — 186,679
-•	Data Scientist — 172,726
-•	Business Analyst — 49,160
-•	Software Engineer — 45,019
+-	Data Analyst — 196,593
+-	Data Engineer — 186,679
+-	Data Scientist — 172,726
+-	Business Analyst — 49,160
+-	Software Engineer — 45,019
 This demonstrates substantial demand across data and technology-related roles.
 ________________________________________
 ### 7.2 Salary by Job Category
@@ -155,24 +154,24 @@ ________________________________________
 ### 7.6 Skills and Salary
 When Data Analyst skills were compared using postings with sufficient salary information, some less frequently requested technologies showed relatively high median salaries.
 Among commonly occurring skills:
-•	SQL had the greatest demand.
-•	Python had a higher median salary association than SQL.
-•	Tableau and R also showed substantial demand.
-•	Cloud and data-platform technologies appeared less frequently but showed relatively high salary associations in some cases.
+-	SQL had the greatest demand.
+-	Python had a higher median salary association than SQL.
+-	Tableau and R also showed substantial demand.
+-	Cloud and data-platform technologies appeared less frequently but showed relatively high salary associations in some cases.
 These are associations rather than causal effects. Salary can also reflect seniority, company, location, industry, and job responsibilities.
 ________________________________________
 ### 7.7 Company Analysis
 Companies and organizations with large numbers of Data Analyst postings included:
-•	Emprego
-•	Robert Half
-•	Insight Global
-•	Citi
-•	Dice
-•	UnitedHealth Group
-•	Confidenziale
-•	Get It Recruit - Information Technology
-•	Michael Page
-•	Randstad
+-	Emprego
+-	Robert Half
+-	Insight Global
+-	Citi
+-	Dice
+-	UnitedHealth Group
+-	Confidenziale
+-	Get It Recruit - Information Technology
+-	Michael Page
+-	Randstad
 These figures represent job postings associated with company names in the dataset. They should not be interpreted as employee counts or necessarily as unique vacancies.
 ________________________________________
 ### 7.8 Geographic Distribution
@@ -194,14 +193,14 @@ ________________________________________
 Remote Data Analyst postings were identified across many countries.
 Among countries with at least 500 Data Analyst postings, the proportion marked as remote varied considerably.
 For example:
-•	Brazil — 24.34%
-•	Canada — 21.28%
-•	India — 17.12%
-•	Sudan — 15.84%
-•	Romania — 14.29%
-•	Philippines — 12.70%
-•	United Kingdom — 9.06%
-•	United States — 7.51%
+-	Brazil — 24.34%
+-	Canada — 21.28%
+-	India — 17.12%
+-	Sudan — 15.84%
+-	Romania — 14.29%
+-	Philippines — 12.70%
+-	United Kingdom — 9.06%
+-	United States — 7.51%
 These percentages describe the dataset's postings and should not be interpreted as national workforce-wide remote-work rates.
 ________________________________________
 ### 7.10 Remote vs Non-Remote Salary
@@ -255,19 +254,19 @@ Business communication is essential for converting analytical results into decis
 ________________________________________
 ## 10. Recommendations
 For Aspiring Data Analysts
-•	Develop strong SQL skills.
-•	Learn Python for data analysis and automation.
-•	Become proficient in Excel.
-•	Learn at least one BI/visualization platform.
-•	Develop statistical and analytical thinking.
-•	Build practical portfolio projects.
-•	Practice explaining technical findings in business language.
-For Employers
-•	Monitor changing skill requirements.
-•	Evaluate skills in combination rather than individually.
-•	Consider geographic and remote-work patterns when recruiting.
-•	Use median salary alongside average salary.
-•	Improve standardization of job titles, locations, companies, and skills.
+-	Develop strong SQL skills.
+-	Learn Python for data analysis and automation.
+-	Become proficient in Excel.
+-	Learn at least one BI/visualization platform.
+-	Develop statistical and analytical thinking.
+-	Build practical portfolio projects.
+-	Practice explaining technical findings in business language.
+-or Employers
+-	Monitor changing skill requirements.
+-	Evaluate skills in combination rather than individually.
+-	Consider geographic and remote-work patterns when recruiting.
+-	Use median salary alongside average salary.
+-	Improve standardization of job titles, locations, companies, and skills.
 ________________________________________
 ## 11. Limitations
 Several limitations should be considered.
@@ -294,45 +293,45 @@ This provides a practical example of applying SQL not merely as a querying langu
 ________________________________________
 ## 13. Dashboard
 The final dashboard should provide visual summaries of:
-•	Job category demand
-•	Data Analyst skill demand
-•	Salary by job category
-•	Skill demand vs salary
-•	Geographic distribution
-•	Remote-work percentage
-•	Remote vs non-remote salary
-•	Monthly job demand
-•	Monthly salary trends
-•	Companies with the most Data Analyst postings
+-	Job category demand
+-	Data Analyst skill demand
+-	Salary by job category
+-	Skill demand vs salary
+-	Geographic distribution
+-	Remote-work percentage
+-	Remote vs non-remote salary
+-	Monthly job demand
+-	Monthly salary trends
+-	Companies with the most Data Analyst postings
 The dashboard should allow users to interact with the analysis through filters such as country, company, job category, skill, remote status, and time period.
 ________________________________________
 ## 14. Project Skills Demonstrated
 This project demonstrates practical experience in:
 SQL
-•	Complex queries
-•	Joins
-•	Aggregations
-•	Filtering
-•	Statistical calculations
-•	Date analysis
-•	Relational database analysis
+-	Complex queries
+-	Joins
+-	Aggregations
+-	Filtering
+-	Statistical calculations
+-	Date analysis
+-	Relational database analysis
 Data Analysis
-•	Exploratory data analysis
-•	Salary analysis
-•	Demand analysis
-•	Geographic analysis
-•	Trend analysis
+-	Exploratory data analysis
+-	Salary analysis
+-	Demand analysis
+-	Geographic analysis
+-	Trend analysis
 Data Engineering Fundamentals
-•	Relational database design
-•	Primary and foreign keys
-•	Fact and dimension tables
-•	Bridge/junction tables
-•	Data loading and validation
+-	Relational database design
+-	Primary and foreign keys
+-	Fact and dimension tables
+-	Bridge/junction tables
+-	Data loading and validation
 Business Analytics
-•	Translating data into insights
-•	Identifying patterns
-•	Communicating findings
-•	Making evidence-based recommendations
+-	Translating data into insights
+-	Identifying patterns
+-	Communicating findings
+-	Making evidence-based recommendations
 ________________________________________
 ## 15. Portfolio Project Summary
 ### Project Title
