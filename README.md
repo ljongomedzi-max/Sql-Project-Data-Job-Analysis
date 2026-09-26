@@ -1,11 +1,11 @@
-Data Analyst Job Market Analysis Using SQL
-1. Executive Summary
+# Data Analyst Job Market Analysis Using SQL
+## 1. Executive Summary
 This project analyzes 787,686 job postings using PostgreSQL and SQL to identify patterns in Data Analyst demand, salaries, skills, remote work, geographic distribution, companies, and hiring trends.
 The analysis found that Data Analyst is one of the largest job categories in the dataset, with approximately 196,593 postings. SQL was the most frequently requested Data Analyst skill, followed by Excel, Python, Tableau, Power BI, and R.
 Salary patterns varied considerably across job categories, companies, skills, locations, and work arrangements. The analysis also identified substantial geographic differences in job availability and remote-work proportions.
 The project demonstrates how SQL can transform a large relational dataset into practical insights that support career analysis and business decision-making.
 ________________________________________
-2. Project Objective
+## 2. Project Objective
 The primary objective was to use SQL to investigate the Data Analyst job market and answer questions about:
 •	Job demand
 •	Salary levels
@@ -17,7 +17,7 @@ The primary objective was to use SQL to investigate the Data Analyst job market 
 •	Monthly hiring trends
 •	Skills associated with salary differences
 ________________________________________
-3. Business Questions
+## 3. Business Questions
 The project answers the following questions:
 1.	Which job categories have the highest demand?
 2.	Which job categories have the highest median salaries?
@@ -32,7 +32,7 @@ The project answers the following questions:
 11.	How does Data Analyst job demand change over time?
 12.	How does Data Analyst salary change over time?
 ________________________________________
-4. Dataset
+## 4. Dataset
 The database contains four main relational tables:
 Table	Purpose
 job_postings_fact	Main job-posting information
@@ -47,7 +47,7 @@ skills_dim	259
 skills_job_dim	3,669,604
 The skills_job_dim table acts as a bridge table because a job can require multiple skills and a skill can occur in many job postings.
 ________________________________________
-5. Database Design
+## 5. Database Design
 The relational structure can be represented as:
 company_dim
 ↓
@@ -60,7 +60,7 @@ Primary and foreign keys were used to maintain relationships between the tables.
 This design allows analysis such as:
 Which skills are required by Data Analyst jobs, and what salaries are associated with those jobs?
 ________________________________________
-6. Tools and Technologies
+## 6. Tools and Technologies
 Database
 PostgreSQL
 Query Language
@@ -88,8 +88,8 @@ The project uses:
 •	Filtering
 •	Data validation
 ________________________________________
-7. Exploratory Data Analysis
-7.1 Job Category Demand
+## 7. Exploratory Data Analysis
+### 7.1 Job Category Demand
 The largest job categories were:
 •	Data Analyst — 196,593
 •	Data Engineer — 186,679
@@ -98,7 +98,7 @@ The largest job categories were:
 •	Software Engineer — 45,019
 This demonstrates substantial demand across data and technology-related roles.
 ________________________________________
-7.2 Salary by Job Category
+### 7.2 Salary by Job Category
 Median annual salaries included:
 Job Category	Median Salary
 Senior Data Scientist	$155,000
@@ -113,11 +113,11 @@ Cloud Engineer	$90,000
 Business Analyst	$85,000
 Only postings containing annual salary information were included in this analysis.
 ________________________________________
-7.3 Highest Individual Salaries
+### 7.3 Highest Individual Salaries
 The analysis identified several unusually high-paying postings, including Data Scientist, Senior Data Scientist, Data Analyst-category, and senior leadership/analytics positions.
 These extreme observations demonstrate why median salary is useful for describing a typical salary level.
 ________________________________________
-7.4 Most In-Demand Skills
+### 7.4 Most In-Demand Skills
 Across the overall dataset, the most frequently appearing skills included:
 1.	SQL
 2.	Python
@@ -131,7 +131,7 @@ Across the overall dataset, the most frequently appearing skills included:
 10.	Java
 SQL and Python were particularly prominent across the job market.
 ________________________________________
-7.5 Most In-Demand Data Analyst Skills
+### 7.5 Most In-Demand Data Analyst Skills
 The leading Data Analyst skills were:
 1.	SQL
 2.	Excel
@@ -145,7 +145,7 @@ The leading Data Analyst skills were:
 10.	SAP
 SQL appeared in approximately 92,628 Data Analyst postings.
 ________________________________________
-7.6 Skills and Salary
+### 7.6 Skills and Salary
 When Data Analyst skills were compared using postings with sufficient salary information, some less frequently requested technologies showed relatively high median salaries.
 Among commonly occurring skills:
 •	SQL had the greatest demand.
@@ -154,7 +154,7 @@ Among commonly occurring skills:
 •	Cloud and data-platform technologies appeared less frequently but showed relatively high salary associations in some cases.
 These are associations rather than causal effects. Salary can also reflect seniority, company, location, industry, and job responsibilities.
 ________________________________________
-7.7 Company Analysis
+### 7.7 Company Analysis
 Companies and organizations with large numbers of Data Analyst postings included:
 •	Emprego
 •	Robert Half
@@ -168,7 +168,7 @@ Companies and organizations with large numbers of Data Analyst postings included
 •	Randstad
 These figures represent job postings associated with company names in the dataset. They should not be interpreted as employee counts or necessarily as unique vacancies.
 ________________________________________
-7.8 Geographic Distribution
+### 7.8 Geographic Distribution
 The United States had the largest number of Data Analyst postings, followed by several European and Asian markets.
 Top countries included:
 Country	Data Analyst Postings
@@ -183,7 +183,7 @@ Philippines	4,770
 Italy	4,570
 Netherlands	4,126
 ________________________________________
-7.9 Remote Work
+### 7.9 Remote Work
 Remote Data Analyst postings were identified across many countries.
 Among countries with at least 500 Data Analyst postings, the proportion marked as remote varied considerably.
 For example:
@@ -197,14 +197,14 @@ For example:
 •	United States — 7.51%
 These percentages describe the dataset's postings and should not be interpreted as national workforce-wide remote-work rates.
 ________________________________________
-7.10 Remote vs Non-Remote Salary
+### 7.10 Remote vs Non-Remote Salary
 For Data Analyst postings containing salary information:
 Work Arrangement	Average	Median
 Remote	$94,770	$87,250
 Non-remote	$93,765	$90,000
 The average and median produced different comparisons, demonstrating the importance of using multiple measures when examining salary distributions.
 ________________________________________
-7.11 Monthly Job Demand
+### 7.11 Monthly Job Demand
 Data Analyst job-posting volume varied throughout 2023.
 The highest observed monthly volume was:
 January 2023 — 23,697 postings
@@ -212,31 +212,31 @@ The lowest complete month in the main 2023 period was:
 May 2023 — 13,457 postings
 The dataset also contained only 485 Data Analyst postings in December 2022, suggesting that December should be treated as a partial-data period rather than compared directly with complete months.
 ________________________________________
-7.12 Monthly Salary Trend
+### 7.12 Monthly Salary Trend
 Salary levels were generally stronger around July and August 2023.
 The median salary reached approximately:
 $95,000 in July and August 2023
 Later months showed lower median salary levels.
 December 2022 contained only six salary observations and was therefore not suitable for meaningful trend comparison.
 ________________________________________
-8. Key Findings
+## 8. Key Findings
 The analysis produced several important findings:
-Finding 1 — Strong Data Analyst Demand
+### Finding 1 — Strong Data Analyst Demand
 Data Analyst was one of the largest job categories in the dataset, with approximately 196,593 postings.
-Finding 2 — SQL Is Central to Data Analyst Roles
+### Finding 2 — SQL Is Central to Data Analyst Roles
 SQL was the most frequently requested Data Analyst skill.
-Finding 3 — Technical Skills Have Different Salary Associations
+### Finding 3 — Technical Skills Have Different Salary Associations
 Skill demand and salary association do not necessarily move together. Some highly demanded skills had lower median salaries than less frequently occurring technologies.
-Finding 4 — Geography Matters
+### Finding 4 — Geography Matters
 The distribution of Data Analyst opportunities varied substantially between countries.
-Finding 5 — Remote Opportunities Vary
+### Finding 5 — Remote Opportunities Vary
 Remote-work availability differed considerably across countries.
-Finding 6 — Salary Measures Tell Different Stories
+### Finding 6 — Salary Measures Tell Different Stories
 Average and median salary comparisons can produce different results, particularly when salary distributions contain high-value observations.
-Finding 7 — Job Demand Changes Over Time
+### Finding 7 — Job Demand Changes Over Time
 The number of Data Analyst postings varied considerably across months during the observed period.
 ________________________________________
-9. Career Insights
+## 9. Career Insights
 The findings suggest several practical areas for Data Analyst skill development.
 A strong development pathway is:
 SQL → Excel → Python → Power BI/Tableau → Statistics → Business Communication
@@ -246,7 +246,7 @@ Excel remains useful for business analysis and spreadsheet-based workflows.
 Power BI and Tableau support data visualization and dashboard development.
 Business communication is essential for converting analytical results into decisions and recommendations.
 ________________________________________
-10. Recommendations
+## 10. Recommendations
 For Aspiring Data Analysts
 •	Develop strong SQL skills.
 •	Learn Python for data analysis and automation.
@@ -262,7 +262,7 @@ For Employers
 •	Use median salary alongside average salary.
 •	Improve standardization of job titles, locations, companies, and skills.
 ________________________________________
-11. Limitations
+## 11. Limitations
 Several limitations should be considered.
 Salary Coverage
 Salary information is available for only a subset of job postings.
@@ -277,7 +277,7 @@ Location fields are not always standardized. job_country was therefore used for 
 Historical Dataset
 The analysis reflects the period represented in the dataset and should not automatically be treated as a description of the current job market.
 ________________________________________
-12. Conclusion
+## 12. Conclusion
 This project demonstrates how SQL and PostgreSQL can be used to analyze a large real-world dataset and transform raw job-posting information into meaningful insights.
 The analysis examined job demand, salaries, skills, companies, geography, remote work, and time trends. SQL played a central role in connecting multiple relational tables, calculating statistics, identifying patterns, and answering practical questions.
 The findings highlight the importance of SQL within Data Analyst roles while also demonstrating the value of complementary skills such as Python, Excel, Tableau, Power BI, and R.
@@ -285,7 +285,7 @@ More broadly, the project demonstrates the complete analytical workflow:
 Raw Data → Database → SQL → EDA → Insights → Recommendations
 This provides a practical example of applying SQL not merely as a querying language, but as a tool for solving real-world analytical problems and communicating evidence-based findings.
 ________________________________________
-13. Dashboard
+## 13. Dashboard
 The final dashboard should provide visual summaries of:
 •	Job category demand
 •	Data Analyst skill demand
@@ -299,7 +299,7 @@ The final dashboard should provide visual summaries of:
 •	Companies with the most Data Analyst postings
 The dashboard should allow users to interact with the analysis through filters such as country, company, job category, skill, remote status, and time period.
 ________________________________________
-14. Project Skills Demonstrated
+## 14. Project Skills Demonstrated
 This project demonstrates practical experience in:
 SQL
 •	Complex queries
@@ -327,14 +327,14 @@ Business Analytics
 •	Communicating findings
 •	Making evidence-based recommendations
 ________________________________________
-15. Portfolio Project Summary
-Project Title
+## 15. Portfolio Project Summary
+### Project Title
 Data Analyst Job Market Analysis Using SQL
-Tools
+### Tools
 PostgreSQL | SQL | psql | PowerShell | Data Visualization
-Dataset
+### Dataset
 787,686 job postings
-Primary Focus
+### Primary Focus
 Data Analyst jobs, skills, salaries, geography, remote work, and hiring trends
-Main Outcome
+### Main Outcome
 A complete SQL-based analysis demonstrating how a large relational dataset can be transformed into meaningful career and business insights.
