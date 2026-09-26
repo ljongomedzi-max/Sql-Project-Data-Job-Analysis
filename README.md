@@ -1,4 +1,11 @@
 # Data Analyst Job Market Analysis Using SQL
+## Table of Contents
+- [Executive Summary](#1-executive-summary)
+- [Project Objective](#2-project-objective)
+- [Database Design](#5-database-design)
+- [Exploratory Data Analysis](#7-exploratory-data-analysis)
+- [Key Findings](#8-key-findings)
+- [Recommendations](#10-recommendations)
 ## 1. Executive Summary
 This project analyzes 787,686 job postings using PostgreSQL and SQL to identify patterns in Data Analyst demand, salaries, skills, remote work, geographic distribution, companies, and hiring trends.
 The analysis found that Data Analyst is one of the largest job categories in the dataset, with approximately 196,593 postings. SQL was the most frequently requested Data Analyst skill, followed by Excel, Python, Tableau, Power BI, and R.
