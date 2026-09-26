@@ -22,11 +22,7 @@ The primary objective was to use SQL to investigate the Data Analyst job market 
 •	Remote opportunities
 •	Salary differences
 •	Monthly hiring trends
-•	Skills associated with salary differencesFocus Area,Description
-Demand & Salary,"Identify top job categories, median salaries, and extreme salary outliers."
-Skills & Tools,Determine the most requested technical skills and their salary associations.
-Geography & Remote,Analyze geographic distribution and remote vs. non-remote salary differences.
-Hiring Trends,Track monthly job posting volume and salary fluctuations over time.
+•	Skills associated with salary differences
 ________________________________________
 ## 3. Business Questions
 The project answers the following questions:
