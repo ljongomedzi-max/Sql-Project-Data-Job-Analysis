@@ -40,11 +40,12 @@ The project answers the following questions:
 ________________________________________
 ## 4. Dataset
 The database contains four main relational tables:
-Table	Purpose
-job_postings_fact	Main job-posting information
-company_dim	Company information
-skills_dim	Skill information
-skills_job_dim	Relationship between jobs and skills
+| Table | Purpose |
+|---|---|
+| `job_postings_fact` | Main job-posting information |
+| `company_dim` | Company information |
+| `skills_dim` | Skill information |
+| `skills_job_dim` | Relationship between jobs and skills |
 Dataset Size
 Table	Records
 job_postings_fact	787,686
