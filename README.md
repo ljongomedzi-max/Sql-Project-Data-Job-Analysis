@@ -213,7 +213,7 @@ Median annual salaries included:
 | Cloud Engineer | $90,000 |
 | Business Analyst | $85,000 |
 
-![1 Highest-paying data jobs](C:\Users\JONGOMEDZI\Sql Project Data Job Analysis\project_sql\assets\1 Median salary by job category.png)
+![1 Median salary by job category](C:\Users\JONGOMEDZI\Sql Project Data Job Analysis\project_sql\assets\1 Median salary by job category.png)
 
 Only postings with annual salary information were included in this analysis.
 
