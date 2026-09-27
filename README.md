@@ -184,19 +184,7 @@ Each analysis in this project is stored in a dedicated SQL file. The queries bel
 
 ## Exploratory Data Analysis
 
-### 1. Job Category Demand
-
-The largest job categories were:
-
-- Data Analyst — 196,593
-- Data Engineer — 186,679
-- Data Scientist — 172,726
-- Business Analyst — 49,160
-- Software Engineer — 45,019
-
-This highlights strong demand across analytics and data-focused roles.
-
-### 2. Salary by Job Category
+### 1. Salary by Job Category
 
 Median annual salaries included:
 
