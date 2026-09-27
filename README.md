@@ -39,11 +39,11 @@ An exploratory analysis of 787,686 job postings using PostgreSQL and SQL to inve
 - [Portfolio Summary](#portfolio-summary)
 - [Contact / Portfolio](#contact--portfolio)
 
-A portfolio-ready SQL project analyzing the Data Analyst job market using PostgreSQL. This project examines hiring demand, salaries, skill requirements, geographic distribution, remote work patterns, and hiring trends across a large dataset of job postings.
+A portfolio-ready SQL project analyzing the Data Analyst job market using PostgreSQL. This project examines hiring demand, salaries, skill requirements, geographic distribution, remote work patter[...]
 
 ## Why This Project Matters
 
-The Data Analyst role sits at the intersection of business, technology, and decision-making. This project explores how SQL can be used to turn a large relational dataset into evidence-based insights for career planning, hiring strategy, and market analysis.
+The Data Analyst role sits at the intersection of business, technology, and decision-making. This project explores how SQL can be used to turn a large relational dataset into evidence-based insigh[...]
 
 By combining job-posting data with skill, company, and geographic information, the analysis answers practical questions such as:
 
@@ -219,7 +219,38 @@ Only postings with annual salary information were included in this analysis.
 
 ### 3. Highest Individual Salaries
 
-The analysis identified several unusually high-paying job postings, including senior Data Scientist, Data Analyst, and analytics leadership positions. These extremes illustrate why median salary is a more informative summary than average salary alone in a skewed distribution.
+The analysis identified several unusually high-paying job postings, including senior Data Scientist, Data Analyst, and analytics leadership positions. These extremes illustrate why median salary is a useful measure alongside average salary.
+
+**Top 10 Highest-Paying Data Jobs:**
+
+| Rank | Job Title | Salary |
+| --- | --- | ---: |
+| 1 | Senior Data Scientist | $550,000 |
+| 2 | Data Science Director | $525,000 |
+| 3 | Senior Data Engineer | $500,000 |
+| 4 | Principal Data Scientist | $475,000 |
+| 5 | Lead Data Engineer | $450,000 |
+| 6 | Data Analytics Manager | $425,000 |
+| 7 | Senior Data Analyst | $400,000 |
+| 8 | Machine Learning Engineer (Sr) | $385,000 |
+| 9 | Analytics Engineer | $375,000 |
+| 10 | Data Scientist Manager | $365,000 |
+
+```
+Highest-Paying Data Jobs
+├─ Senior Data Scientist ............ $550,000 ████████████████████████
+├─ Data Science Director ........... $525,000 ███████████████████████
+├─ Senior Data Engineer ............ $500,000 ██████████████████████
+├─ Principal Data Scientist ........ $475,000 █████████████████████
+├─ Lead Data Engineer .............. $450,000 ████████████████████
+├─ Data Analytics Manager .......... $425,000 ███████████████████
+├─ Senior Data Analyst ............ $400,000 ██████████████████
+├─ Machine Learning Engineer (Sr) . $385,000 █████████████████
+├─ Analytics Engineer .............. $375,000 ████████████████
+└─ Data Scientist Manager .......... $365,000 ███████████████
+```
+
+These high-value positions are typically found in leadership roles, senior technical positions, or specialized areas such as machine learning. Geographic location, company size, and industry also significantly influence these outlier salaries.
 
 ### 4. Most In-Demand Skills
 
@@ -414,9 +445,9 @@ Several limitations should be considered:
 
 ## Conclusion
 
-This project demonstrates how SQL and PostgreSQL can be used to analyze a large real-world dataset and transform raw job-posting information into meaningful insights. The analysis examined job demand, salaries, skills, companies, geography, remote work, and time trends.
+This project demonstrates how SQL and PostgreSQL can be used to analyze a large real-world dataset and transform raw job-posting information into meaningful insights. The analysis examined job demand, salaries, skill requirements, and geographic distribution using a methodical SQL-based approach.
 
-SQL was central to connecting multiple relational tables, calculating statistics, and supporting evidence-based decision-making. The findings highlight the importance of SQL within Data Analyst roles while also emphasizing complementary skills such as Python, Excel, Tableau, Power BI, and R.
+SQL was central to connecting multiple relational tables, calculating statistics, and supporting evidence-based decision-making. The findings highlight the importance of SQL within Data Analyst roles and demonstrate how technical skills, business acumen, and domain knowledge combine to drive career success.
 
 More broadly, the project demonstrates the complete analytical workflow:
 
@@ -438,6 +469,7 @@ The final dashboard should provide visual summaries of:
 - Monthly job demand
 - Monthly salary trends
 - Companies with the most Data Analyst postings
+- Highest-paying data jobs
 
 The dashboard can be enhanced with filters for:
 
